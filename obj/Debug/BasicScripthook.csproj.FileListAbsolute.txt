@@ -1,0 +1,15 @@
+C:\Users\antol\source\repos\BasicScripthook\bin\Debug\BasicScripthook.pdb
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.csproj.AssemblyReference.cache
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.Properties.Resources.resources
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.csproj.GenerateResource.cache
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.csproj.CoreCompileInputs.cache
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.pdb
+C:\Users\antol\source\repos\BasicScripthook\bin\Debug\BasicScripthook.exe.config
+C:\Users\antol\source\repos\BasicScripthook\bin\Debug\BasicScripthook.exe
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.csproj.SuggestedBindingRedirects.cache
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.exe
+C:\Users\antol\source\repos\BasicScripthook\bin\Debug\DiscordRPC.xml
+C:\Users\antol\source\repos\BasicScripthook\bin\Debug\Newtonsoft.Json.xml
+C:\Users\antol\source\repos\BasicScripthook\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.csproj.Fody.CopyLocal.cache
+C:\Users\antol\source\repos\BasicScripthook\obj\Debug\BasicScripthook.csproj.CopyComplete

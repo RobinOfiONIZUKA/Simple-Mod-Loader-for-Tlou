@@ -1,0 +1,117 @@
+Renamed Types:
+
+[ModsLoaderTLOU]BasicScripthook.Properties.Resources -> [ModsLoaderTLOU] . 
+{
+	[ModsLoaderTLOU]BasicScripthook.Properties.Resources::get_ResourceManager[0]( ) ->  
+	[ModsLoaderTLOU]BasicScripthook.Properties.Resources::get_Culture[0]( ) ->  
+	[ModsLoaderTLOU]BasicScripthook.Properties.Resources::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) ->  
+
+	[ModsLoaderTLOU]BasicScripthook.Properties.Resources::.ctor[0]( ) skipped:  special name
+
+	System.Resources.ResourceManager [ModsLoaderTLOU]System.Resources.ResourceManager BasicScripthook.Properties.Resources::resourceMan ->  
+	System.Globalization.CultureInfo [ModsLoaderTLOU]System.Globalization.CultureInfo BasicScripthook.Properties.Resources::resourceCulture ->  
+
+	System.Resources.ResourceManager [ModsLoaderTLOU]System.Resources.ResourceManager BasicScripthook.Properties.Resources::ResourceManager ->  
+	System.Globalization.CultureInfo [ModsLoaderTLOU]System.Globalization.CultureInfo BasicScripthook.Properties.Resources::Culture ->  
+}
+
+[ModsLoaderTLOU]BasicScripthook.Properties.Settings -> [ModsLoaderTLOU] . 
+{
+	[ModsLoaderTLOU]BasicScripthook.Properties.Settings::get_Default[0]( ) ->  
+
+	[ModsLoaderTLOU]BasicScripthook.Properties.Settings::.ctor[0]( ) skipped:  special name
+	[ModsLoaderTLOU]BasicScripthook.Properties.Settings::.cctor[0]( ) skipped:  special name
+
+	BasicScripthook.Properties.Settings [ModsLoaderTLOU]BasicScripthook.Properties.Settings BasicScripthook.Properties.Settings::defaultInstance ->  
+
+	BasicScripthook.Properties.Settings [ModsLoaderTLOU]BasicScripthook.Properties.Settings BasicScripthook.Properties.Settings::Default -> dropped
+}
+
+[ModsLoaderTLOU]Scripthook.Program -> [ModsLoaderTLOU] . 
+{
+	[ModsLoaderTLOU]Scripthook.Program::Main[1]( [mscorlib]System.String[] ) ->  
+
+	[ModsLoaderTLOU]Scripthook.Program::.ctor[0]( ) skipped:  special name
+
+	DiscordRPC.DiscordRpcClient [ModsLoaderTLOU]DiscordRPC.DiscordRpcClient Scripthook.Program::discordRpcClient ->  
+	System.Int32 [ModsLoaderTLOU]System.Int32 Scripthook.Program::numScriptsLoaded ->  
+}
+
+[ModsLoaderTLOU]Costura.AssemblyLoader -> [ModsLoaderTLOU] . 
+{
+	[ModsLoaderTLOU]Costura.AssemblyLoader::CultureToString[1]( [mscorlib]System.Globalization.CultureInfo ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::ReadExistingAssembly[1]( [mscorlib]System.Reflection.AssemblyName ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::CopyTo[2]( [mscorlib]System.IO.Stream, [mscorlib]System.IO.Stream ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::LoadStream[1]( [mscorlib]System.String ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::LoadStream[2]( [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.String,[mscorlib]System.String>, [mscorlib]System.String ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::ReadStream[1]( [mscorlib]System.IO.Stream ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::ReadFromEmbeddedResources[3]( [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.String,[mscorlib]System.String>, [mscorlib]System.Collections.Generic.Dictionary`2<[mscorlib]System.String,[mscorlib]System.String>, [mscorlib]System.Reflection.AssemblyName ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::ResolveAssembly[2]( [mscorlib]System.Object, [mscorlib]System.ResolveEventArgs ) ->  
+	[ModsLoaderTLOU]Costura.AssemblyLoader::Attach[0]( ) ->  
+
+	[ModsLoaderTLOU]Costura.AssemblyLoader::.cctor[0]( ) skipped:  special name
+
+	System.Object [ModsLoaderTLOU]System.Object Costura.AssemblyLoader::nullCacheLock ->  
+	System.Collections.Generic.Dictionary`2<System.String,System.Boolean> [ModsLoaderTLOU]System.Collections.Generic.Dictionary`2<System.String,System.Boolean> Costura.AssemblyLoader::nullCache ->  
+	System.Collections.Generic.Dictionary`2<System.String,System.String> [ModsLoaderTLOU]System.Collections.Generic.Dictionary`2<System.String,System.String> Costura.AssemblyLoader::assemblyNames ->  
+	System.Collections.Generic.Dictionary`2<System.String,System.String> [ModsLoaderTLOU]System.Collections.Generic.Dictionary`2<System.String,System.String> Costura.AssemblyLoader::symbolNames ->  
+	System.Int32 [ModsLoaderTLOU]System.Int32 Costura.AssemblyLoader::isAttached ->  
+}
+
+[ModsLoaderTLOU]ModsLoaderTLOU_ProcessedByFody -> [ModsLoaderTLOU] . 
+{
+	System.String [ModsLoaderTLOU]System.String ModsLoaderTLOU_ProcessedByFody::FodyVersion ->  
+	System.String [ModsLoaderTLOU]System.String ModsLoaderTLOU_ProcessedByFody::Costura ->  
+}
+
+[ModsLoaderTLOU]Injector.ProcessLoader -> [ModsLoaderTLOU] . 
+{
+	[ModsLoaderTLOU]Injector.ProcessLoader::CloseHandle[1]( [mscorlib]System.IntPtr ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::CreateRemoteThread[7]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::GetModuleHandle[1]( [mscorlib]System.String ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::GetProcAddress[2]( [mscorlib]System.IntPtr, [mscorlib]System.String ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::InjectDll[2]( [mscorlib]System.Int32, [mscorlib]System.String ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::OpenProcess[3]( [mscorlib]System.Int32, [mscorlib]System.Boolean, [mscorlib]System.Int32 ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::OpenThread[3]( [mscorlib]System.Int32, [mscorlib]System.Boolean, [mscorlib]System.Int32 ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::ResumeThread[1]( [mscorlib]System.IntPtr ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::SuspendThread[1]( [mscorlib]System.IntPtr ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::VirtualAllocEx[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32 ) ->  
+	[ModsLoaderTLOU]Injector.ProcessLoader::WriteProcessMemory[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.Byte[], [mscorlib]System.UInt32, [mscorlib]System.UIntPtr& ) ->  
+
+	[ModsLoaderTLOU]Injector.ProcessLoader::.ctor[0]( ) skipped:  special name
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+BasicScripthook.Properties.Resources.resources ->  . .resources
+
+Skipped Resources:
+
+costura.costura.dll.compressed (no clear new name)
+costura.costura.pdb.compressed (no clear new name)
+costura.discord.net.commands.dll.compressed (no clear new name)
+costura.discord.net.core.dll.compressed (no clear new name)
+costura.discord.net.interactions.dll.compressed (no clear new name)
+costura.discord.net.rest.dll.compressed (no clear new name)
+costura.discord.net.webhook.dll.compressed (no clear new name)
+costura.discord.net.websocket.dll.compressed (no clear new name)
+costura.discordrpc.dll.compressed (no clear new name)
+costura.discordrpc.pdb.compressed (no clear new name)
+costura.memory.dll.compressed (no clear new name)
+costura.microsoft.bcl.asyncinterfaces.dll.compressed (no clear new name)
+costura.microsoft.extensions.dependencyinjection.abstractions.dll.compressed (no clear new name)
+costura.newtonsoft.json.dll.compressed (no clear new name)
+costura.system.buffers.dll.compressed (no clear new name)
+costura.system.collections.immutable.dll.compressed (no clear new name)
+costura.system.diagnostics.diagnosticsource.dll.compressed (no clear new name)
+costura.system.interactive.async.dll.compressed (no clear new name)
+costura.system.linq.async.dll.compressed (no clear new name)
+costura.system.memory.dll.compressed (no clear new name)
+costura.system.numerics.vectors.dll.compressed (no clear new name)
+costura.system.reactive.dll.compressed (no clear new name)
+costura.system.runtime.compilerservices.unsafe.dll.compressed (no clear new name)
+costura.system.threading.tasks.extensions.dll.compressed (no clear new name)
+costura.system.valuetuple.dll.compressed (no clear new name)
+costura.metadata (no clear new name)
